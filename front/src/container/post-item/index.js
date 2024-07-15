@@ -37,7 +37,7 @@ export default function Container({ id, username, text, date }) {
 		}
 	}
 
-	const convertData = (post) => ({
+	const convertData = ({ post }) => ({
 		id: post.id,
 		username: post.username,
 		text: post.text,
